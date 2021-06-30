@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "businessName": "Test Business",
+      "phone": "+3301030459",
+      "emailAddress": "test@business.fr"
+    }
+  ]
+}
