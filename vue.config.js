@@ -1,6 +1,9 @@
 const fs = require('fs')
 
-module.exports = {
+module.exports = {  
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/form'
+      : '/',
     css: {
       loaderOptions: {
         sass: {
