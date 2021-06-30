@@ -1,6 +1,7 @@
 const fs = require('fs')
 
 module.exports = {  
+    publicPath: '/',
     css: {
       loaderOptions: {
         sass: {
